@@ -1,6 +1,6 @@
 
 body{
-font-family: roboto;
+font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFF;
 text-decoration: none;
@@ -25,7 +25,7 @@ ul, li {
 .logo{ 
     text-decoration: none;
     color:  #4D5AE5;
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
        font-weight: 700;
@@ -40,8 +40,7 @@ ul, li {
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 1.17;
-       
+        line-height: 1.17;       
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -89,12 +88,9 @@ color: #404BBF,
     background: #404BBF
 }
     .button{
-        border-radius: 4px;
-        background:  #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);    
-        Show 1 more color
+     background:  #4D5AE5;
+       }
 
-    }
         .button-name {
             color:  #FFF;            
             font-family: Roboto;
@@ -127,8 +123,7 @@ letter-spacing: 0.02em;
     }
       /* Section our team */
 .titleh2{
-    color:  #2E2F42;
-        text-align: center;       
+    color:  #2E2F42;             
         font-family: Roboto;
         font-size: 36px;
         font-style: normal;
@@ -138,8 +133,7 @@ letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
-.team-name{color: #2E2F42;
-    text-align: center;
+.team-name{color: #2E2F42;    
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -149,8 +143,7 @@ letter-spacing: 0.02em;
 }
 
 .position{
-    color:  #434455;
-        text-align: center;        
+    color:  #434455;              
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
