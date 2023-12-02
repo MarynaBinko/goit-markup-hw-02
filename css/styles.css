@@ -63,7 +63,7 @@ color: #404BBF;
         font-style: normal;
     }
 
-.address-item:hover, .address:focus{
+.address-item:hover, .address-item:focus{
     color: #404bbf;
 
 }
