@@ -48,6 +48,7 @@ ul, li {
 .nav:hover, .nav:focus{
 color: #404BBF,
      }
+
     .nav{
         color: #2E2F42;          
             font-family: Roboto;
@@ -58,7 +59,10 @@ color: #404BBF,
             letter-spacing: 0.02;
     }
 
+.address:hover, .address:focus{
+    color: #404bbf;
 
+}
 .address{
     color:  #434455;      
         font-family: Roboto;
@@ -92,15 +96,18 @@ color: #404BBF,
        }
 
         .button-name {
-            color:  #FFF;            
+            color:  #FFFFFF;            
             font-family: Roboto;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
-            line-height: 1.5x;          
+            line-height: 1.5;          
             letter-spacing: 0.04em;
         }
-/* second section */
+/* three section */
+.section_three{
+    background-color: #F4F4FD;
+}
     .title{
         color: #2E2F42;            
             font-family: Roboto;
@@ -122,8 +129,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
     }
       /* Section our team */
-.titleh2{
-    color:  #2E2F42;             
+.title_section{
+    color:  #2E2F42; 
+    text-align: center;            
         font-family: Roboto;
         font-size: 36px;
         font-style: normal;
@@ -133,7 +141,7 @@ letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
-.team-name{color: #2E2F42;    
+.team-name{color: #2E2F42;      
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -142,8 +150,12 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
 
+.team_name_position{
+    background-color: #FFFFFF;
+}
+
 .position{
-    color:  #434455;              
+    color:  #434455;                  
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
